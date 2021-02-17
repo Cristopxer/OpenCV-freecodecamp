@@ -7,6 +7,7 @@ import os.path as path
 # read video
 videoPath = path.abspath(
     path.join(__file__, "../..", "Resources/Videos/dog.mp4"))
+print(videoPath)
 capture = cv.VideoCapture(videoPath)
 while(True):
     isTrue, frame = capture.read()
