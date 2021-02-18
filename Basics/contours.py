@@ -9,8 +9,7 @@ def getPath(typeFile, file):
                                   "Resources/"+folder, file))
 
 
-img = cv.imread(getPath("img", "cats.jpg"))
-
+img = cv.imread(getPath("img", "Cats.jpg"))
 cv.imshow("Cats", img)
 
 blank = np.zeros(img.shape, dtype='uint8')
